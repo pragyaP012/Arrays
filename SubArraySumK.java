@@ -6,7 +6,7 @@ public class SubArraySumK {
     public static void main(String args[]) {
 		int a [] = {1, 2, 4, 3, 1, 2, 1, 1, 3};
 		int k = 3;
-		System.out.println("total number of subarrays whose sum equal k is "+ sumKOfSubArray(a,k));
+		System.out.println("total number of subarrays whose sum equal k is "+ sumKOfSubArray(a,k)); // 5 i.e [1,2] [3] [1,2] [2,1] [3]
 	}
 	
 	public static int sumKOfSubArray(int a[], int k) {
